@@ -1,3 +1,4 @@
+
 feature 'user can edit a bookmark' do
   scenario 'A user can press edit button' do
     add_a_bookmark

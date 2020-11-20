@@ -1,5 +1,3 @@
-require 'pg'
-
 feature 'viewing bookmarks' do
   scenario 'visting the index page' do
     visit('/')

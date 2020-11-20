@@ -5,6 +5,7 @@
         "lines": [
           1,
           1,
+          1,
           null,
           1,
           null,
@@ -51,6 +52,7 @@
       "/Users/georgiehorth/Desktop/Projects/bookmarks/lib/bookmark.rb": {
         "lines": [
           1,
+          1,
           null,
           1,
           null,
@@ -63,12 +65,6 @@
           null,
           null,
           1,
-          11,
-          11,
-          null,
-          0,
-          null,
-          null,
           11,
           11,
           13,
@@ -79,30 +75,12 @@
           15,
           15,
           null,
-          0,
-          null,
-          null,
-          15,
-          15,
-          null,
           null,
           1,
-          2,
-          2,
-          null,
-          0,
-          null,
-          null,
           2,
           null,
           null,
           1,
-          2,
-          2,
-          null,
-          0,
-          null,
-          null,
           2,
           2,
           null,
@@ -111,12 +89,36 @@
           2,
           2,
           null,
+          null
+        ]
+      },
+      "/Users/georgiehorth/Desktop/Projects/bookmarks/lib/database_connection.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          4,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          33,
+          null,
+          null
+        ]
+      },
+      "/Users/georgiehorth/Desktop/Projects/bookmarks/database_connection_setup.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
           0,
-          null,
-          null,
-          2,
-          2,
-          null,
           null
         ]
       },
@@ -126,7 +128,6 @@
           1,
           null,
           null,
-          1,
           1,
           1,
           1,
@@ -192,10 +193,37 @@
           null
         ]
       },
+      "/Users/georgiehorth/Desktop/Projects/bookmarks/spec/database_connection_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/georgiehorth/Desktop/Projects/bookmarks/spec/features/adding_bookmarks_spec.rb": {
         "lines": [
-          null,
-          null,
           1,
           1,
           1,
@@ -228,6 +256,7 @@
       },
       "/Users/georgiehorth/Desktop/Projects/bookmarks/spec/features/editing_bookmarks_spec.rb": {
         "lines": [
+          null,
           1,
           1,
           1,
@@ -252,8 +281,6 @@
       "/Users/georgiehorth/Desktop/Projects/bookmarks/spec/features/viewing_bookmark_spec.rb": {
         "lines": [
           1,
-          null,
-          1,
           1,
           1,
           1,
@@ -274,6 +301,6 @@
         ]
       }
     },
-    "timestamp": 1605869275
+    "timestamp": 1605895541
   }
 }
