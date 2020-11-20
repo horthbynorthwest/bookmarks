@@ -8,10 +8,7 @@
         <input id="hidden" type="hidden" name="_method" value="delete">
         <input type="submit" value="Delete">
       </form>
-      <form action="/bookmarks/<%= bookmark.id%>" method="post">
-        <input id="hidden" type="hidden" name="_method" value="patch">
-        <input type="text" name="title" placeholder="Title" />
-        <input type="text" name="url" placeholder="Url" />
+      <form action="/bookmarks/<%= bookmark.id%>/edit" method="get">
         <input type="submit" value="Edit">
       </form>
     </li>
