@@ -40,4 +40,16 @@ describe Bookmark do
       expect { Bookmark.delete(id: bookmark.id) }.to change { Bookmark.all.length }.by -1
     end
   end
+
+  describe '.edit' do
+    it 'edits a bookmark' do
+      bookmark = Bookmark.create(url: 'http://twitter.com', title: 'Twitter')
+      updated_bookmark = Bookmark.edit(id: bookmark.id, url: 'www.amazon.co.uk', title: 'Amazon')
+
+      expect(updated_bookmark).to be_a Bookmark
+      expect(updated_bookmark.id).to eq bookmark.id
+      expect(updated_bookmark.title).to eq 'Amazon'
+      expect(updated_bookmark.url).to eq 'www.amazon.co.uk' 
+    end
+  end
 end
